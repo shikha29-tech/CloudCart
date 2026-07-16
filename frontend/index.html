@@ -1,44 +1,60 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>CloudCart</title>
-<style>
-body{
-font-family: Arial;
-text-align:center;
-background:#f2f2f2;
-}
-
-h1{
-color:#333;
-}
-
-.product{
-background:white;
-padding:20px;
-margin:20px;
-border-radius:10px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudCart</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<h1>Welcome to CloudCart 🛒</h1>
+<header>
+    <h1>CloudCart 🛒</h1>
 
-<p>DevOps E-Commerce Demo Application</p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to CloudCart</h2>
+    <p>Your One Stop Online Shopping Destination</p>
+</section>
+
+<section class="products">
 
 <div class="product">
-<h2>Laptop</h2>
-<p>Price: $500</p>
+    <h2>Laptop</h2>
+    <p>Price: $500</p>
+    <button>Add to Cart</button>
 </div>
-
 
 <div class="product">
-<h2>Mobile</h2>
-<p>Price: $300</p>
+    <h2>Mobile</h2>
+    <p>Price: $300</p>
+    <button>Add to Cart</button>
 </div>
 
+<div class="product">
+    <h2>Headphones</h2>
+    <p>Price: $100</p>
+    <button>Add to Cart</button>
+</div>
+
+</section>
+
+<footer>
+    <p>© 2026 CloudCart. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
